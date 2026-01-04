@@ -1,19 +1,23 @@
+'use client';
+
 import { getWhatsappUrl } from '@/config/site';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function ContactPage() {
+    const { t } = useLanguage();
+
     return (
         <main className="flex-1 bg-white py-12">
             <div className="container mx-auto px-4 max-w-4xl">
-                <h1 className="text-3xl font-bold text-gray-900 mb-8 text-center">Contact & Support</h1>
+                <h1 className="text-3xl font-bold text-gray-900 mb-8 text-center">{t('contact.title')}</h1>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                     {/* Contact Info */}
                     <div className="space-y-8">
                         <div>
-                            <h2 className="text-xl font-semibold mb-4 text-brand-700">Get in Touch</h2>
+                            <h2 className="text-xl font-semibold mb-4 text-brand-700">{t('contact.getInTouch.title')}</h2>
                             <p className="text-gray-600 mb-6">
-                                Need help choosing the right lights? Or have a bulk order for a new construction?
-                                We are here to help.
+                                {t('contact.getInTouch.description')}
                             </p>
 
                             <div className="space-y-4">
@@ -29,16 +33,15 @@ export default function ContactPage() {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h3 className="font-semibold text-gray-900">Phone & WhatsApp</h3>
+                                        <h3 className="font-semibold text-gray-900">{t('contact.info.phoneWhatsapp')}</h3>
                                         <p className="text-gray-600">+91 98765 43210</p>
-                                        <p className="text-xs text-gray-500">Mon - Sat, 9am - 9pm</p>
+                                        <p className="text-xs text-gray-500">{t('contact.info.hours')}</p>
                                     </div>
                                 </a>
                                 <div>
-                                    <h3 className="font-semibold text-gray-900">Store Visual</h3>
+                                    <h3 className="font-semibold text-gray-900">{t('contact.info.store')}</h3>
                                     <p className="text-gray-600">
-                                        123, Anna Salai,<br />
-                                        Chennai, Tamil Nadu - 600002
+                                        {t('footer.contact.address')}
                                     </p>
                                 </div>
                             </div>

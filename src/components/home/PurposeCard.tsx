@@ -1,11 +1,16 @@
+'use client';
+
 import Link from 'next/link';
 import { Category } from '@/types';
+import { useLanguage } from '@/context/LanguageContext';
 
 type PurposeCardProps = {
     category: Category;
 };
 
 export default function PurposeCard({ category }: PurposeCardProps) {
+    const { t } = useLanguage();
+
     return (
         <Link
             href={`/category/${category.slug}`}
@@ -19,9 +24,9 @@ export default function PurposeCard({ category }: PurposeCardProps) {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
 
                 <div className="absolute bottom-0 left-0 p-6 text-white transform translate-y-2 group-hover:translate-y-0 transition-transform">
-                    <h3 className="text-2xl font-bold mb-1">{category.name}</h3>
+                    <h3 className="text-2xl font-bold mb-1">{t(`data.categories.${category.id}.name`)}</h3>
                     <p className="text-gray-200 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        {category.description}
+                        {t(`data.categories.${category.id}.description`)}
                     </p>
                 </div>
             </div>

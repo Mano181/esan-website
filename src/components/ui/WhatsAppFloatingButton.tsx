@@ -1,14 +1,19 @@
+'use client';
+
 import React from 'react';
 import { getWhatsappUrl } from '@/config/site';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function WhatsAppFloatingButton() {
+    const { t } = useLanguage();
+
     return (
         <a
             href={getWhatsappUrl()}
             target="_blank"
             rel="noreferrer"
             className="fixed bottom-6 right-6 z-[100] bg-[#25D366] hover:bg-[#20bd5a] text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-110 flex items-center justify-center group"
-            aria-label="Chat on WhatsApp"
+            aria-label={t('nav.chatOnWhatsapp')}
         >
             <svg
                 xmlns="http://www.w3.org/2000/svg"

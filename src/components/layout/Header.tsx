@@ -25,8 +25,8 @@ export default function Header() {
                 {/* Desktop Nav */}
                 <nav className="hidden md:flex gap-6 text-sm font-medium text-gray-600 items-center">
                     <Link href="/" className="hover:text-brand-600">{t('nav.home')}</Link>
-                    <Link href="/#purpose" className="hover:text-brand-600">{t('nav.purpose')}</Link>
-                    <Link href="/#categories" className="hover:text-brand-600">{t('nav.products')}</Link>
+                    <Link href="/#purpose" className="hover:text-brand-600">{t('nav.use')}</Link>
+                    <Link href="/#categories" className="hover:text-brand-600">{t('nav.product')}</Link>
                     <Link href="/brands" className="hover:text-brand-600">{t('nav.brands')}</Link>
                     <Link href="/contact" className="hover:text-brand-600">{t('nav.contact')}</Link>
 
@@ -69,7 +69,7 @@ export default function Header() {
                             rel="noreferrer"
                             className="hidden md:flex bg-brand-600 hover:bg-brand-700 text-white px-4 py-2 rounded-full text-sm font-medium transition-colors items-center gap-2"
                         >
-                            <span>WhatsApp Us</span>
+                            <span>{t('nav.whatsapp')}</span>
                         </a>
                     </div>
                 </div>
@@ -79,8 +79,8 @@ export default function Header() {
                     <div className="fixed inset-0 bg-white z-10 flex flex-col pt-24 px-6 md:hidden">
                         <nav className="flex flex-col gap-2">
                             <Link href="/" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium text-gray-800 py-3 border-b border-gray-50">{t('nav.home')}</Link>
-                            <Link href="/#purpose" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium text-gray-800 py-3 border-b border-gray-50">{t('nav.purpose')}</Link>
-                            <Link href="/#categories" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium text-gray-800 py-3 border-b border-gray-50">{t('nav.products')}</Link>
+                            <Link href="/#purpose" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium text-gray-800 py-3 border-b border-gray-50">{t('nav.use')}</Link>
+                            <Link href="/#categories" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium text-gray-800 py-3 border-b border-gray-50">{t('nav.product')}</Link>
                             <Link href="/brands" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium text-gray-800 py-3 border-b border-gray-50">{t('nav.brands')}</Link>
                             <Link href="/contact" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium text-gray-800 py-3">{t('nav.contact')}</Link>
                             <hr className="border-gray-100 my-2" />
@@ -90,7 +90,7 @@ export default function Header() {
                                 rel="noreferrer"
                                 className="flex justify-center bg-brand-600 text-white px-4 py-4 rounded-xl font-bold mt-2"
                             >
-                                Chat on WhatsApp
+                                {t('nav.chatOnWhatsapp')}
                             </a>
                         </nav>
                     </div>

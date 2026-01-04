@@ -2,13 +2,13 @@ export type StockStatus = 'in_stock' | 'out_of_stock' | 'pre_order';
 
 export interface Product {
     id: string;
-    name: string;
+    nameKey: string;
     brand: string;
     category: string; // references category.id
-    purposes: string[]; // references purpose.id
+    uses: string[]; // references purpose.slug
     price: number;
-    shortDescription: string;
-    description: string;
+    shortDescriptionKey: string;
+    descriptionKey: string;
     specifications?: Record<string, string>;
     image: string; // placeholder path
     stockStatus: StockStatus;

@@ -29,13 +29,13 @@ export default function Hero() {
                             href="#purpose"
                             className="bg-accent-500 hover:bg-accent-600 text-white text-lg font-semibold px-8 py-3 rounded-full transition-transform transform hover:scale-105 shadow-lg"
                         >
-                            {t('home.hero.ctaPrimary')}
+                            {t('home.hero.ctaUse')}
                         </Link>
                         <Link
                             href="/shop"
                             className="bg-white/10 hover:bg-white/20 text-white text-lg font-semibold px-8 py-3 rounded-full backdrop-blur-sm transition-colors"
                         >
-                            {t('home.hero.ctaSecondary')}
+                            {t('home.hero.ctaProducts')}
                         </Link>
                     </div>
                 </div>
