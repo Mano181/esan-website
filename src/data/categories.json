@@ -1,0 +1,107 @@
+[
+  {
+    "id": "home-construction",
+    "name": "Home Construction",
+    "slug": "home-construction",
+    "description": "Everything you need for building a new home, from foundation to finish.",
+    "type": "purpose",
+    "image": "/images/purpose/home-construction.jpg",
+    "tips": [
+      "Use Fire Retardant (FR) wires for internal wiring to ensure safety.",
+      "Plan for 2-way switches in bedrooms and corridors.",
+      "Install ELM / MCB distribution boards for overload protection."
+    ]
+  },
+  {
+    "id": "shop-showroom",
+    "name": "Shop / Showroom",
+    "slug": "shop-showroom",
+    "description": "Lighting and electricals to make your products shine.",
+    "type": "purpose",
+    "image": "/images/purpose/shop-showroom.jpg",
+    "tips": [
+      "Focus on high CRI lighting to make product colors pop.",
+      "Use track lights for highlighting specific merchandise.",
+      "Ensure sufficient power points for POS systems and displays."
+    ]
+  },
+  {
+    "id": "studio-office",
+    "name": "Studio / Office",
+    "slug": "studio-office",
+    "description": "Professional lighting and power solutions for workspaces.",
+    "type": "purpose",
+    "image": "/images/purpose/studio-office.jpg",
+    "tips": [
+      "Use cool daylight (6500K) for workspaces to improve focus.",
+      "Install modular floor boxes for clean cable management.",
+      "Use surge protectors for computers and sensitive equipment."
+    ]
+  },
+  {
+    "id": "electrician-essentials",
+    "name": "Electrician Essentials",
+    "slug": "electrician-essentials",
+    "description": "Tools, tapes, and bulk items for contractors.",
+    "type": "purpose",
+    "image": "/images/purpose/electrician.jpg",
+    "tips": [
+      "Always carry varied colors of electrical tape (Red, Y, B, Green).",
+      "Stock up on common screws and fasteners.",
+      "Use quality test equipment for safety checks."
+    ]
+  },
+  {
+    "id": "small-factory",
+    "name": "Small Factory",
+    "slug": "small-factory",
+    "description": "Heavy-duty gear for industrial needs.",
+    "type": "purpose",
+    "image": "/images/purpose/factory.jpg",
+    "tips": [
+      "Use armored cables for underground or exposed heavy-duty wiring.",
+      "Install industrial-grade metal clad sockets.",
+      "Ensure proper earthing for all heavy machinery."
+    ]
+  },
+  {
+    "id": "lighting",
+    "name": "Lighting",
+    "slug": "lighting",
+    "description": "LED bulbs, tubes, panels, and decorative lights.",
+    "type": "category",
+    "image": "/images/category/lighting.jpg"
+  },
+  {
+    "id": "switches-sockets",
+    "name": "Switches & Sockets",
+    "slug": "switches-sockets",
+    "description": "Modular switches, sockets, and plates.",
+    "type": "category",
+    "image": "/images/category/switches.jpg"
+  },
+  {
+    "id": "wires-cables",
+    "name": "Wires & Cables",
+    "slug": "wires-cables",
+    "description": "Safety-grade house wires and cables.",
+    "type": "category",
+    "image": "/images/category/wires.jpg"
+  },
+  {
+    "id": "fans",
+    "name": "Fans",
+    "slug": "fans",
+    "description": "Ceiling, exhaust, and pedestal fans.",
+    "type": "category",
+    "image": "/images/category/fans.jpg"
+  },
+  {
+    "id": "distribution-boards",
+    "name": "Distribution Boards",
+    "slug": "distribution-boards",
+    "description": "MCBs, DB boxes, and safety switches.",
+    "type": "category",
+    "image": "/images/category/db-box.jpg"
+  }
+]

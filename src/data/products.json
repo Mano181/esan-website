@@ -1,0 +1,178 @@
+[
+    {
+        "id": "gm-fan-regulator",
+        "name": "GM Modular Fan Regulator",
+        "slug": "gm-fan-regulator",
+        "brand": "GM",
+        "category": "switches-sockets",
+        "purposes": [
+            "new-construction",
+            "renovation"
+        ],
+        "price": 180,
+        "shortDescription": "2-module step regulator for smooth fan control.",
+        "description": "High-quality modular fan regulator from GM. Step-type regulation ensures hum-free operation and long life. Fits standard modular plates.",
+        "specifications": {
+            "Type": "2 Module",
+            "Color": "White",
+            "Warranty": "1 Year"
+        },
+        "image": "/images/products/gm-regulator.jpg",
+        "stockStatus": "in_stock"
+    },
+    {
+        "id": "polycab-1sqmm-red",
+        "name": "Polycab 1.0 sqmm Wire (Red)",
+        "slug": "polycab-1sqmm-red",
+        "brand": "Polycab",
+        "category": "wires-cables",
+        "purposes": [
+            "new-construction",
+            "electrician-essentials"
+        ],
+        "price": 1200,
+        "shortDescription": "Flame retardant (FR) house wire, 90m roll.",
+        "description": "Polycab FR PVC insulated copper wire. Ideal for internal wiring in homes and offices. Superior conductivity and safety.",
+        "specifications": {
+            "Conductor": "Copper",
+            "Type": "FR (Flame Retardant)",
+            "Length": "90m",
+            "Color": "Red"
+        },
+        "image": "/images/products/polycab-red.jpg",
+        "stockStatus": "in_stock"
+    },
+    {
+        "id": "philips-9w-led",
+        "name": "Philips 9W LED Bulb (Cool Day Light)",
+        "slug": "philips-9w-led",
+        "brand": "Philips",
+        "category": "lighting",
+        "purposes": [
+            "renovation",
+            "shop-showroom",
+            "studio-office"
+        ],
+        "price": 110,
+        "shortDescription": "Energy efficient B22 bulb, 6500K.",
+        "description": "Philips Ace Saver 9W LED bulb provides bright, cool daylight. Saves up to 85% energy compared to GLS bulbs.",
+        "specifications": {
+            "Base": "B22",
+            "Lumens": "900lm",
+            "Color Temp": "6500K",
+            "Warranty": "1 Year"
+        },
+        "image": "/images/products/philips-9w.jpg",
+        "stockStatus": "in_stock"
+    },
+    {
+        "id": "crompton-fan-hs",
+        "name": "Crompton High Speed Ceiling Fan",
+        "slug": "crompton-fan-hs",
+        "brand": "Crompton",
+        "category": "fans",
+        "purposes": [
+            "new-construction",
+            "renovation",
+            "commercial"
+        ],
+        "price": 1850,
+        "shortDescription": "1200mm sweep, high RPM motor.",
+        "description": "Crompton Hill Briz high-speed ceiling fan. Reliable performance with double ball bearings and corrosion-resistant powder coating.",
+        "specifications": {
+            "Sweep": "1200mm",
+            "Speed": "380 RPM",
+            "Color": "Ivory/Brown"
+        },
+        "image": "/images/products/crompton-fan.jpg",
+        "stockStatus": "in_stock"
+    },
+    {
+        "id": "legrand-mcb-16a",
+        "name": "Legrand MCB 16A SP C-Curve",
+        "slug": "legrand-mcb-16a",
+        "brand": "Legrand",
+        "category": "distribution-boards",
+        "purposes": [
+            "new-construction",
+            "small-factory"
+        ],
+        "price": 250,
+        "shortDescription": "Single Pole MCB for circuit protection.",
+        "description": "Legrand RX3 series MCB. Provides protection against overload and short circuits. Suitable for residential and commercial distribution boards.",
+        "specifications": {
+            "Poles": "1P",
+            "Rating": "16A",
+            "Curve": "C Type",
+            "Breaking Capacity": "10kA"
+        },
+        "image": "/images/products/legrand-mcb.jpg",
+        "stockStatus": "in_stock"
+    },
+    {
+        "id": "finolex-cctv-cable",
+        "name": "Finolex CCTV 3+1 Coaxial Cable",
+        "slug": "finolex-cctv-cable",
+        "brand": "Finolex",
+        "category": "wires-cables",
+        "purposes": [
+            "shop-showroom",
+            "small-factory",
+            "studio-office"
+        ],
+        "price": 1500,
+        "shortDescription": "Composite cable for CCTV camera setups.",
+        "description": "High-quality RG59 coaxial cable with 3 power cores. Ensures distortion-free video transmission for security systems.",
+        "specifications": {
+            "Type": "3+1 CCTV",
+            "Length": "90m",
+            "Jacket": "PVC"
+        },
+        "image": "/images/products/finolex-cctv.jpg",
+        "stockStatus": "in_stock"
+    },
+    {
+        "id": "havells-panel-12w",
+        "name": "Havells 12W LED Panel Light",
+        "slug": "havells-panel-12w",
+        "brand": "Havells",
+        "category": "lighting",
+        "purposes": [
+            "studio-office",
+            "shop-showroom",
+            "new-construction"
+        ],
+        "price": 450,
+        "shortDescription": "Slim recessed panel, round/square.",
+        "description": "Havells Trim LED rimless panel light. Diffused light output with wide angle coverage. Easy to install in false ceilings.",
+        "specifications": {
+            "Wattage": "12W",
+            "Shape": "Round",
+            "Cutout": "4 inch"
+        },
+        "image": "/images/products/havells-panel.jpg",
+        "stockStatus": "out_of_stock"
+    },
+    {
+        "id": "anchor-roma-socket",
+        "name": "Anchor Roma 6A Socket",
+        "slug": "anchor-roma-socket",
+        "brand": "Anchor",
+        "category": "switches-sockets",
+        "purposes": [
+            "renovation",
+            "new-construction",
+            "electrician-essentials"
+        ],
+        "price": 60,
+        "shortDescription": "2-pin/3-pin universal socket.",
+        "description": "Classic Anchor Roma modular socket with safety shutter. Compatible with all Roma plates. Standard 6A rating for general use.",
+        "specifications": {
+            "Rating": "6A",
+            "Modules": "2M",
+            "Color": "White"
+        },
+        "image": "/images/products/anchor-socket.jpg",
+        "stockStatus": "in_stock"
+    }
+]
