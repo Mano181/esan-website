@@ -3,6 +3,12 @@ import { NextResponse } from 'next/server';
 import { supabase } from '@/lib/supabase';
 
 export async function GET() {
+    if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
+        return NextResponse.json(
+            { error: 'Database configuration missing' },
+            { status: 500 }
+        );
+    }
     try {
         const { data: products, error } = await supabase
             .from('products')
@@ -27,6 +33,12 @@ export async function GET() {
 }
 
 export async function POST(request: Request) {
+    if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
+        return NextResponse.json(
+            { error: 'Database configuration missing' },
+            { status: 500 }
+        );
+    }
     try {
         const body = await request.json();
 
