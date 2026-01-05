@@ -4,12 +4,10 @@ import Link from 'next/link';
 import PurposeCard from '@/components/home/PurposeCard';
 import { Category } from '@/types';
 import { useLanguage } from '@/context/LanguageContext';
-import { useCategories } from '@/hooks/useData';
 
-export default function PurposeGrid({ initialCategories }: { initialCategories?: Category[] }) {
+export default function PurposeGrid({ initialCategories }: { initialCategories: Category[] }) {
     const { t } = useLanguage();
-    const allCategories = useCategories(initialCategories);
-    const purposeCategories = allCategories.filter(c => c.type === 'purpose');
+    const purposeCategories = initialCategories.filter(c => c.type === 'purpose');
 
     return (
         <section id="purpose" className="py-12">

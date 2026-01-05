@@ -183,7 +183,7 @@ export default function ProductClient({ initialProduct, initialAllCategories }: 
                                     </div>
                                     <div>
                                         <h4 className="font-bold text-gray-900 mb-1">Still not sure?</h4>
-                                        <p className="text-sm text-gray-600 mb-3">Our experts can help you choose the right product for your specific needs.</p>
+                                        <p className="text-sm text-gray-600 mb-3">Our team can help you choose the right product for your specific needs.</p>
                                         <a href={whatsappUrl} className="text-sm font-bold text-orange-600 hover:text-orange-700 flex items-center gap-1 group">
                                             {t('product.cta.whatsappDoubt')} <span className="group-hover:translate-x-1 transition-transform">&rarr;</span>
                                         </a>

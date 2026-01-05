@@ -2,11 +2,12 @@ import { getProducts, getCategories } from '@/lib/db';
 import CategoryClient from '@/components/category/CategoryClient';
 import { notFound } from 'next/navigation';
 
-export default function CategoryPage({ params }: { params: { slug: string } }) {
+export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
     const allProducts = getProducts();
     const allCategories = getCategories();
 
-    const category = allCategories.find((c) => c.slug === params.slug);
+    const category = allCategories.find((c) => c.slug === slug);
 
     if (!category) {
         notFound();

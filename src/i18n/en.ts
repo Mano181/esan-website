@@ -47,8 +47,8 @@ export const en = {
             },
             whatsappHelp: {
                 title: 'Not sure what to buy?',
-                description: 'Chat with an ESAN expert to get personalized recommendations for your home or project.',
-                cta: 'Chat with ESAN Expert',
+                description: 'Chat with the ESAN team to get personalized recommendations for your home or project.',
+                cta: 'Chat with ESAN Team',
             },
         },
     },
@@ -59,7 +59,7 @@ export const en = {
         noProducts: 'No recommended products added yet.',
         checklist: {
             title: 'Need a complete checklist?',
-            text: "Don't miss anything for your {name}. Chat with our expert for a full requirements list.",
+            text: "Don't miss anything for your {name}. Chat with our team for a full requirements list.",
             cta: 'Chat about {name}',
         },
     },
@@ -74,7 +74,7 @@ export const en = {
             whatsappNote: 'Usually replies within 1 hour. Pay via UPI or Cash on Delivery.',
         },
         cta: {
-            whatsapp: 'Ask ESAN expert on WhatsApp',
+            whatsapp: 'Ask ESAN team on WhatsApp',
             whatsappDoubt: 'Or ask a doubt on WhatsApp',
         },
         status: {

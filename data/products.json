@@ -17,7 +17,7 @@
             "Color": "White",
             "Warranty": "1 Year"
         },
-        "image": "/images/products/gm-regulator.jpg",
+        "image": "/images/products/gm-regulator.png",
         "stockStatus": "in_stock"
     },
     {
@@ -39,7 +39,7 @@
             "Length": "90m",
             "Color": "Red"
         },
-        "image": "/images/products/polycab-red.jpg",
+        "image": "/images/products/polycab-red.png",
         "stockStatus": "in_stock"
     },
     {
@@ -61,7 +61,7 @@
             "Color Temp": "6500K",
             "Warranty": "1 Year"
         },
-        "image": "/images/products/philips-9w.jpg",
+        "image": "/images/products/philips-9w.png",
         "stockStatus": "in_stock"
     },
     {
@@ -82,7 +82,7 @@
             "Speed": "380 RPM",
             "Color": "Ivory/Brown"
         },
-        "image": "/images/products/crompton-fan.jpg",
+        "image": "/images/products/crompton-fan.png",
         "stockStatus": "in_stock"
     },
     {
@@ -104,7 +104,7 @@
             "Curve": "C Type",
             "Breaking Capacity": "10kA"
         },
-        "image": "/images/products/legrand-mcb.jpg",
+        "image": "/images/products/legrand-mcb.png",
         "stockStatus": "in_stock"
     },
     {
@@ -126,7 +126,7 @@
             "Length": "90m",
             "Jacket": "PVC"
         },
-        "image": "/images/products/finolex-cctv.jpg",
+        "image": "/images/products/finolex-cctv.png",
         "stockStatus": "in_stock"
     },
     {
@@ -148,7 +148,7 @@
             "Shape": "Round",
             "Cutout": "4 inch"
         },
-        "image": "/images/products/havells-panel.jpg",
+        "image": "/images/products/havells-panel.png",
         "stockStatus": "out_of_stock"
     },
     {
@@ -169,7 +169,7 @@
             "Modules": "2M",
             "Color": "White"
         },
-        "image": "/images/products/anchor-socket.jpg",
+        "image": "/images/products/anchor-socket.png",
         "stockStatus": "in_stock"
     }
 ]

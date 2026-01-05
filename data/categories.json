@@ -5,7 +5,7 @@
     "slug": "home-construction",
     "description": "Everything you need for building a new home, from foundation to finish.",
     "type": "purpose",
-    "image": "/images/purpose/home-construction.jpg",
+    "image": "/images/purpose/home-construction.png",
     "tips": [
       "Use Fire Retardant (FR) wires for internal wiring to ensure safety.",
       "Plan for 2-way switches in bedrooms and corridors.",
@@ -18,7 +18,7 @@
     "slug": "shop-showroom",
     "description": "Lighting and electricals to make your products shine.",
     "type": "purpose",
-    "image": "/images/purpose/shop-showroom.jpg",
+    "image": "/images/purpose/shop-showroom.png",
     "tips": [
       "Focus on high CRI lighting to make product colors pop.",
       "Use track lights for highlighting specific merchandise.",
@@ -31,7 +31,7 @@
     "slug": "studio-office",
     "description": "Professional lighting and power solutions for workspaces.",
     "type": "purpose",
-    "image": "/images/purpose/studio-office.jpg",
+    "image": "/images/purpose/studio-office.png",
     "tips": [
       "Use cool daylight (6500K) for workspaces to improve focus.",
       "Install modular floor boxes for clean cable management.",
@@ -44,7 +44,7 @@
     "slug": "electrician-essentials",
     "description": "Tools, tapes, and bulk items for contractors.",
     "type": "purpose",
-    "image": "/images/purpose/electrician.jpg",
+    "image": "/images/purpose/electrician.png",
     "tips": [
       "Always carry varied colors of electrical tape (Red, Y, B, Green).",
       "Stock up on common screws and fasteners.",
@@ -57,7 +57,7 @@
     "slug": "small-factory",
     "description": "Heavy-duty gear for industrial needs.",
     "type": "purpose",
-    "image": "/images/purpose/factory.jpg",
+    "image": "/images/purpose/factory.png",
     "tips": [
       "Use armored cables for underground or exposed heavy-duty wiring.",
       "Install industrial-grade metal clad sockets.",
@@ -70,7 +70,7 @@
     "slug": "lighting",
     "description": "LED bulbs, tubes, panels, and decorative lights.",
     "type": "category",
-    "image": "/images/category/lighting.jpg"
+    "image": "/images/category/lighting.png"
   },
   {
     "id": "switches-sockets",
@@ -78,7 +78,7 @@
     "slug": "switches-sockets",
     "description": "Modular switches, sockets, and plates.",
     "type": "category",
-    "image": "/images/category/switches.jpg"
+    "image": "/images/category/switches.png"
   },
   {
     "id": "wires-cables",
@@ -86,7 +86,7 @@
     "slug": "wires-cables",
     "description": "Safety-grade house wires and cables.",
     "type": "category",
-    "image": "/images/category/wires.jpg"
+    "image": "/images/category/wires.png"
   },
   {
     "id": "fans",
@@ -94,7 +94,7 @@
     "slug": "fans",
     "description": "Ceiling, exhaust, and pedestal fans.",
     "type": "category",
-    "image": "/images/category/fans.jpg"
+    "image": "/images/category/fans.png"
   },
   {
     "id": "distribution-boards",
@@ -102,6 +102,6 @@
     "slug": "distribution-boards",
     "description": "MCBs, DB boxes, and safety switches.",
     "type": "category",
-    "image": "/images/category/db-box.jpg"
+    "image": "/images/category/db-box.png"
   }
 ]

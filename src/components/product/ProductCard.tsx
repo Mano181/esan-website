@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import NextImage from 'next/image';
 import { Product } from '@/types';
 import { useLanguage } from '@/context/LanguageContext';
 
@@ -13,11 +14,14 @@ export default function ProductCard({ product }: { product: Product }) {
             href={`/product/${product.slug}`}
             className={`group block bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow ${isOutOfStock ? 'opacity-75' : ''}`}
         >
-            <div className="aspect-square bg-gray-100 relative">
-                <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-                    {/* Placeholder for image */}
-                    <span className="text-4xl opacity-30">IMG</span>
-                </div>
+            <div className="aspect-square bg-gray-100 relative overflow-hidden">
+                <NextImage
+                    src={product.image}
+                    alt={t(product.nameKey)}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
                 {isOutOfStock && (
                     <div className="absolute top-2 right-2 bg-red-100 text-red-600 text-[10px] font-bold px-2 py-1 rounded-full uppercase tracking-wide">
                         {t('product.status.outOfStock')}
