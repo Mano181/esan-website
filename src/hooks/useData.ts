@@ -11,22 +11,21 @@ export function useProducts(initialData: Product[] = []) {
     const [products, setProducts] = useState<Product[]>(initialData);
 
     useEffect(() => {
-        if (process.env.NODE_ENV === 'development') {
-            const fetchProducts = async () => {
-                try {
-                    const res = await fetch('/api/data/products');
-                    const data = await res.json();
-                    setProducts(data);
-                } catch (error) {
-                    console.error('Error fetching products:', error);
-                }
-            };
+        const fetchProducts = async () => {
+            try {
+                // Fetch from our new Supabase-backed API
+                // cache: 'no-store' ensures we always get fresh data
+                const res = await fetch('/api/products', { cache: 'no-store' });
+                if (!res.ok) throw new Error('Failed to fetch products');
 
-            fetchProducts();
-            // Optional: Polling or WebSocket for real-time updates if needed
-            // For now, a manual refresh or navigation will trigger this, 
-            // which is usually enough for "immediate reflection" after save.
-        }
+                const data = await res.json();
+                setProducts(data);
+            } catch (error) {
+                console.error('Error fetching products:', error);
+            }
+        };
+
+        fetchProducts();
     }, []);
 
     return products;
